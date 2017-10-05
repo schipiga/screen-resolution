@@ -1,0 +1,25 @@
+{
+  "name": "screen-resolution",
+  "version": "1.0.0",
+  "description": "Get screen resolution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schipiga/screen-resolution.git"
+  },
+  "author": "Sergei Chipiga <chipiga86@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/schipiga/screen-resolution/issues"
+  },
+  "homepage": "https://github.com/schipiga/screen-resolution#readme",
+  "dependencies": {
+    "desktop-screenshot": "git+https://github.com/schipiga/node-desktop-screenshot.git",
+    "lodash": "^4.17.4",
+    "pngjs": "^3.3.0",
+    "temp": "^0.8.3"
+  }
+}
